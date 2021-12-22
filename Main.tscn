@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://GlobalRotationPart.tscn" type="PackedScene" id=1]
+
+[node name="Scene" type="Spatial"]
+
+[node name="GlobalRotationPart" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, -1.52259 )
+
+[node name="Camera" type="Camera" parent="."]
